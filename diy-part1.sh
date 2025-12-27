@@ -1,4 +1,4 @@
-#!/bin/bash
+
 #
 # https://github.com/P3TERX/Actions-OpenWrt
 # File name: diy-part1.sh
@@ -16,3 +16,4 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+git clone https://github.com/Zesuy/UA-Mask.git package/UA-Mask
