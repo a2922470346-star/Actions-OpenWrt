@@ -18,3 +18,8 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+# 下载 UA-Mask 核心
+git clone https://github.com/Zesuy/UA-Mask.git package/UA-Mask
+
+# 下载 UA-Mask LuCI 界面
+git clone https://github.com/lrdr521/luci-app-uamask.git package/luci-app-uamask
