@@ -16,5 +16,3 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-git clone https://github.com/Zesuy/UA-Mask.git package/UA-Mask
-git clone https://github.com/lrdr521/luci-app-uamask.git package/luci-app-uamask
